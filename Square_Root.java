@@ -17,5 +17,6 @@ class Square_Root{
             }
             System.out.println("Square root is:\t"+i);
         }
+        sc.close();
     }
 }
