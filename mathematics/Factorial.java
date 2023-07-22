@@ -3,12 +3,14 @@ package mathematics;
 import java.util.Scanner;
 //Time Complexity = O(n)
 public class Factorial {
+    //Recursive
     public long recFact(long num){
         if(num==0){
             return 1;
         }
         return num*recFact(num-1);
     }
+    //Iterative
     public int fact(int num){
         int res=1;
         if(num==0){
