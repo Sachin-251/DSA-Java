@@ -8,13 +8,14 @@ class Count_Digits {
         int num;
         System.out.println("Enter the number:\t");
         num=sc.nextInt();
-        Count c = new Count(num);
+        Count c = new Count();
+        c.countDigits(num);
         sc.close();
     }    
 }
 
 class Count{
-    public Count(int num){
+    public void countDigits(int num){
         int count=0;
         while(num > 0){
             num=num/10;
