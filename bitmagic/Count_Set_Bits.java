@@ -32,7 +32,7 @@ public class Count_Set_Bits {
     //     }
     // }
     // public int countSetBits(int num){
-    //     return tbl[num & 255] + tbl[(num>>8) & 255] + tbl[(num>>16) & 255] + tbl[(num>>24) & 255];
+    //     return tbl[num & 255] + tbl[(num>>8) & 255] + tbl[(num>>16) & 255] + tbl[(num>>24)];
     // }
 
     public static void main(String[] args) {
