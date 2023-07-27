@@ -3,6 +3,7 @@ package bitmagic;
 import java.util.Scanner;
 
 public class Swap_Odd_Even_Bits {
+    //TC = O(1)
     public static int swapBits(int n) 
     {
 	    int even = n & 0xAAAAAAAA;

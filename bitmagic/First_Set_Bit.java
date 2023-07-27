@@ -3,6 +3,7 @@ package bitmagic;
 import java.util.Scanner;
 
 public class First_Set_Bit {
+    //TC = O(log N)
     public static int getFirstSetBit(int n){
         int pos =1;
         while(n>0){

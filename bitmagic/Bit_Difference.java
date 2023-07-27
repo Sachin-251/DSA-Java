@@ -3,6 +3,7 @@ package bitmagic;
 import java.util.Scanner;
 
 public class Bit_Difference {
+    //TC = O(log N)
     public static int countBitsFlip(int a, int b){
         int res = a^b;
         int count=0;

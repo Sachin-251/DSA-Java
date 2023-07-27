@@ -3,6 +3,7 @@ package bitmagic;
 import java.util.Scanner;
 
 public class Longest_Consecutive_Ones {
+    //TC = O(log N)
     public static int maxConsecutiveOnes(int N) {
         int count=0;
         while(N>0){

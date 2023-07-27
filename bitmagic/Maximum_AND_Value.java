@@ -1,6 +1,7 @@
 package bitmagic;
 
 public class Maximum_AND_Value {
+    //TC = O(N * log M)
     public static int maxAND (int arr[], int N) {
         int res=0;
         for(int bit=31;bit>=0;bit--){

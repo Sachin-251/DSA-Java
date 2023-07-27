@@ -3,6 +3,7 @@ package bitmagic;
 import java.util.Scanner;
 
 public class Rightmost_Different_Bit {
+    ////TC = O(max(log M,log N))
     public static int posOfRightMostDiffBit(int m, int n)
     {  
         int res = m^n;
