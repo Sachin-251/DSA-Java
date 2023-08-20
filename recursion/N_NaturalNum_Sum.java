@@ -3,9 +3,9 @@ package recursion;
 import java.util.Scanner;
 
 public class N_NaturalNum_Sum {
-    //General Formula = n*(n+1)/2
+    //General Formula = n*(n+1)/2. TC= O(N)
     public static int sum(int num){
-        if(num<=1) return 1;
+        if(num==0) return 0;
 
         return num+sum(num-1);
     }
