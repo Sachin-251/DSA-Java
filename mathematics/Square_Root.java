@@ -1,3 +1,4 @@
+package mathematics;
 import java.util.*;
 
 class Square_Root{

@@ -3,6 +3,7 @@ package recursion;
 import java.util.Scanner;
 
 public class Tower_of_Hanoi {
+    //TC = O(2^N)
     public static void toh(int n, char a, char b, char c){
         if(n==1){
             System.out.println("Move disk 1 from "+a+" to "+c);
